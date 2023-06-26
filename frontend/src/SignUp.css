@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+
+    box-sizing: border-box;
+}
+
+body{
+
+    background: #e5cae7;
+
+
+}
+.logo{
+    padding: 40px;
+    background: white;
+    padding: 30px 120 px;
+    width:500px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+
+    /*transition: color 100ms ease-out;*/
+
+.signupbox:hover{
+
+    color:rgb(90, 60, 118)
+}
+.signupbox{
+    font-size: 25px;
+    margin-bottom: 20px; /* Adds 20px of margin at the bottom of the signupbox */
+}
+  
+.password {
+    font-size: 25px;
+
+
+    margin-top: 20px; /* Adds 10px of margin at the top of the password box */
+  }
+  
+
+
+}
+
+.logo h1{
+
+    margin-bottom: 20px;
+    ;
+}
+.TwitterIcon{
+    color: rgb(74, 38, 105);
+    font-size: 50px !important;
+
+}
+.submitbutton{
+    margin-top: 20px;
+    padding: 7px;
+    font-size: 20px;
+    border-radius: 20px;
+
+}
+.passwordbox{
+    font-size: 20px;
+    margin-left: 20px;
+    border-radius: 20px;
+
+}
+.usernamebox{
+    font-size: 20px;
+    margin-left: 20px;
+    border-radius: 20px;
+
+
+}
+
+.interests{
+
+    font-size: 25px;
+    padding: 5px 20px;
+}
+.interests:hover{
+    color:rgb(93, 25, 156);
+}
+.interest-submit{
+    font-size: 20px;
+
+}
